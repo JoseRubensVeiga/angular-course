@@ -4,7 +4,7 @@ import { CursosComponent } from './cursos.component';
 
 @NgModule({
   declarations: [
-    CursosComponent
+    CursosComponent,
   ],
   imports: [
     CommonModule

@@ -5,11 +5,13 @@ import { CursosModule } from './cursos/cursos.module';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
+import { DataBindingComponent } from './data-handling/data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
+    DataBindingComponent,
   ],
   imports: [
     BrowserModule,

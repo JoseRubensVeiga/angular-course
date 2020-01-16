@@ -11,9 +11,7 @@ export class CursosComponent implements OnInit {
   title: string;
   cursos: Curso[];
 
-  constructor(
-    private cursosService: CursosService
-  ) {
+  constructor(private cursosService: CursosService) {
     this.title = 'Cursos';
     
     this.cursos = this.cursosService.getCursos();
